@@ -45,10 +45,9 @@
             <h3 class="offer-sub-title open-sans-inter">ALL CATEGORIES</h3>
             <img src="images/New Year Photo.png" alt="" class="offer-img">
         </div>
-        <div class="welcome">
+        <section class="welcome">
             <div class="welcome-container">
-                <h1 class="welcome-title open-sans-merriweather white">Welcome to</h1>
-                <h1 class="welcome-sub-title open-sans-merriweather white">midnight party</h1>
+                <h1 class="welcome-title open-sans-merriweather  white">Welcome to midnight party</h1>
                 <p class="wecome-description orange open-sans-inter white">Dolor sit amet consectetur. Consequat eget
                     consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod</p>
                 <a class="join-now open-sans-inter white" href="">Join Now</a>
@@ -58,8 +57,8 @@
                 <img class="" src="images/Group 70.png" alt="">
             </div>
 
-        </div>
-        <div class="schedule">
+        </section>
+        <section class="schedule">
             <div class="schedule-container open-sans-inter">
                 <p class="place"><span class="design">Place:</span> New Park Hotel</p>
                 <p class="date"><span class="design">Date:</span> 31 December Night 2023</p>
@@ -67,7 +66,7 @@
                 <button class="btn white">Join Now</button>
             </div>
 
-        </div>
+        </section>
         <div class="best-offer open-sans-inter">
             <div class="comming-soon">
                 <p class="best-offer-title orange">NEW BEST OFFER</p>
@@ -110,15 +109,15 @@
                 <p class="best-gifts-title">THE BEST GIFTS</p>
                 <p class="best-gifts-sub-title">Our Awesome Portfolio</p>
                 <p class="best-gifts-description">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
-                    molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
+                    molestie malesuada. <br> Ipsum sed sodales risus ut pellentesque vel euismod. </p>
             </div>
             <div class="image-container">
-                <div class="image-container-contents"><img src="images/Rectangle 3.png" alt=""></div>
-                <div class="image-container-contents"><img src="images/Rectangle 4.png" alt=""></div>
-                <div class="image-container-contents"><img src="images/Rectangle 5.png" alt=""></div>
-                <div class="image-container-contents"><img src="images/Rectangle 6.png" alt=""></div>
-                <div class="image-container-contents"><img src="images/Rectangle 7.png" alt=""></div>
-                <div class="image-container-contents"><img src="images/Rectangle 8.png" alt=""></div>
+                <img src="images/Rectangle 3.png" alt="">
+                <img src="images/Rectangle 4.png" alt="">
+                <img src="images/Rectangle 5.png" alt="">
+                <img src="images/Rectangle 6.png" alt="">
+                <img src="images/Rectangle 7.png" alt="">
+                <img src="images/Rectangle 8.png" alt="">
             </div>
         </section>
         <section class="subscribe">
@@ -127,8 +126,11 @@
                 <p class="news-letter open-sans-merriweather">Subscribe Newsletter</p>
                 <p class="subscribe-description open-sans-inter">Dolor sit amet consectetur. Consequat eget consectetur
                     maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
-                <input class="subdcribe-email" type="email" name="" id="" placeholder="user@gmail.com">
-                <button class="subscribe-button">Subscribe</button>
+                <div class="subscribe-form">
+                    <input class="subdcribe-email" type="email" name="" id="" placeholder="user@gmail.com">
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+
 
             </div>
         </section>
@@ -136,17 +138,18 @@
     </main>
     <footer class="links open-sans-inter">
         <div class="address-bar">
-            <div class="address">
-                <p class="home white">44, Big Building Roosevelt Street
+          <p class="home white">44, Big Building Roosevelt Street <br>
                     Beach Gardens Florida 33410</p>
+            <div> class="phone">
+                <div style="display: flex;align-items: center;gap:5px; ">
+                    <img class="white" height="30px" src="icons/Call.png" alt="">
+                    <p class="white">+00 123 584 124</p>
+                </div>
+                <div style="display: flex;align-items: center;gap:5px; ">
+                    <img class="white" src="icons/Website.png" alt="">
+                    <p class="white">www.website.com</p>
+                </div>
 
-
-            </div>
-            <div class="phone">
-                <img class="white" src="icons/Call.png" alt="">
-                <p class="white">+00 123 584 124</p>
-                <img class="white" src="icons/Website.png" alt="">
-                <p class="white">www.website.com</p>
 
             </div>
         </div>
@@ -159,8 +162,10 @@
         </div>
         <hr>
         <div class="copy-right white">
-            <div><p>&copy; 2017, All Rights Reserved.</p></div>
-            <div><button>Unsubscribe</button></div>
+                <p>&copy; 2017, All Rights Reserved.</p>
+            
+
+            <button>Unsubscribe</button>
         </div>
 
     </footer>
