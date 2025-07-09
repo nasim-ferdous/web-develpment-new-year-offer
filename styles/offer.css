@@ -153,13 +153,72 @@
     color: rgba(7, 2, 17, 1);
 
 }
-.design{
+
+.design {
     color: #FF0000;
 }
-.btn{
+
+.btn {
     background-color: #FF0000;
     padding: 16px 32px;
     font-weight: bold;
     font-size: 20px;
 
+}
+
+.best-offer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1140px;
+    height: 450px;
+    background-color: rgba(255, 0, 0, .1);
+    border: 1px;
+    border-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.best-offer-title {
+    font-weight: 500px;
+    font-size: 32px;
+}
+
+.best-offer-sub-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: rgba(7, 2, 17, 1);
+}
+
+.best-offer-description {
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.best-offer-img {
+    width: 450px;
+    height: 450px;
+    
+}
+
+.twenty {
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+.twenty-description {
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+
+}
+.twenty-img{
+    width: 140px;
+    height: 140px;
 }
