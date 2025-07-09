@@ -165,7 +165,7 @@
     font-size: 20px;
 
 }
-
+/* best offer */
 .best-offer {
     display: flex;
     justify-content: space-between;
@@ -221,4 +221,46 @@
 .twenty-img{
     width: 140px;
     height: 140px;
+}
+/* holydays sale */
+.holyday-sale{
+    width: 1140px;
+    height: 986px;
+    background-color: rgba(255, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.sales{
+    text-align: center;
+}
+.sales-title{
+    font-weight: 500px;
+    font-size: 24px;
+    color: rgba(7, 2, 17, 1);
+}
+.sale-percentage{
+     font-weight: 900px;
+    font-size: 72px;
+    color: rgba(7, 2, 17, 1);
+}
+.sale-description{
+    font-weight: 500px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.box{
+    width: 674px;
+    height: 577px;
+}
+.discount{
+    width: 220px;
+    height: 220px;
+}
+.bottom{
+    width: 1140px;
+    height: 229px;
 }
