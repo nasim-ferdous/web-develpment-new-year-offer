@@ -1,0 +1,123 @@
+.open-sans-inter {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.open-sans-merriweather {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* banner styles */
+
+.banner {
+    width: 1140px;
+    height: 600px;
+    background-image: url('/images/Banner\ Image.png');
+    border: 1px;
+    border-radius: 16px;
+    border-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.banner-container {
+    text-align: center;
+    padding: 230px 340px 0px 340px;
+}
+
+.banner-title {
+    font-weight: 400px;
+    font-size: 32px;
+}
+
+.banner-description {
+    font-weight: 600px;
+    font-size: 50px;
+}
+
+.banner-second-description {
+    font-weight: 600px;
+    font-size: 50px;
+
+}
+
+/* shared styles */
+.orange {
+    color: #FF0000;
+}
+
+.white {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* offer styles
+ */
+.offer-container {
+    text-align: center;
+    /* width: 802px;
+    height: 806px; */
+}
+
+.offer-title {
+    font-weight: bold;
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+
+.offer-comment {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.offer-sub-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: rgba(17, 4, 2, 1);
+}
+
+.offer-img {
+    width: 802px;
+    height: 500px;
+}
+/* welcome stytle */
+.welcome{
+    display: flex;
+    justify-content:space-around;
+    width: 1140px;
+    height: 600px;
+    background-image: url('/images/Vectorrr.png');
+    border: 1px;
+    border-radius: 16px;
+    border-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.welcome-container{
+    padding: 150px;
+}
+.welcome-img{
+    width: 319px;
+    height: 464px;
+    padding: 100px;
+}
+.join-now{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
