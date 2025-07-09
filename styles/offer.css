@@ -61,6 +61,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
+/* main part starts */
 /* offer styles
  */
 .offer-container {
@@ -91,10 +92,11 @@
     width: 802px;
     height: 500px;
 }
+
 /* welcome stytle */
-.welcome{
+.welcome {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 1140px;
     height: 600px;
     background-image: url('/images/Vectorrr.png');
@@ -108,16 +110,56 @@
     margin-top: 50px;
 
 }
-.welcome-container{
+
+.welcome-container {
     padding: 150px;
 }
-.welcome-img{
+
+.welcome-img {
     width: 319px;
     height: 464px;
     padding: 100px;
 }
-.join-now{
+
+.join-now {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+}
+
+/* scedule style */
+.schedule {
+    width: 1140px;
+    height: 450px;
+    background-color: rgba(255, 0, 0, .1);
+    border: 1px;
+    border-radius: 16px;
+    border-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
+
+
+
+}
+
+.schedule-container p {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(7, 2, 17, 1);
+
+}
+.design{
+    color: #FF0000;
+}
+.btn{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 20px;
+
 }
